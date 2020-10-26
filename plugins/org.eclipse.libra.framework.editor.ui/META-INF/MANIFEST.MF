@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.eclipse.libra.framework.editor.ui
-Bundle-Version: 4.17.0.qualifier
+Bundle-Version: 4.18.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: org.eclipse.libra.framework.editor.ui.console;version=
  "0.1.0"; uses:="org.eclipse.libra.framework.editor.ui.internal.overvi

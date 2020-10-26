@@ -3,16 +3,16 @@
 
 	<groupId>org.eclipse.libra</groupId>
 	<artifactId>org.eclipse.libra_parent</artifactId>
-	<version>4.17.0-SNAPSHOT</version>
+	<version>4.18.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Libra Parent POM</name>
 
 	<properties>
 		<tycho-version>1.4.0</tycho-version>
-		<eclipse-site>https://download.eclipse.org/releases/2020-09/202009161000/</eclipse-site>
-		<emf-site>https://download.eclipse.org/releases/2020-09/202009161000/</emf-site>
-		<dtp-site>https://download.eclipse.org/releases/2020-09/202009161000/</dtp-site>
-		<gef-site>https://download.eclipse.org/releases/2020-09/202009161000/</gef-site>
+		<eclipse-site	>https://download.eclipse.org/eclipse/updates/4.18milestones/</eclipse-site>
+		<emf-site		>https://download.eclipse.org/modeling/emf/emf/builds/milestone/S202010050141/</emf-site>
+		<dtp-site		>https://ci.eclipse.org/datatools/job/org.eclipse.datatools_master/lastSuccessfulBuild/artifact/site/target/repository/</dtp-site>
+		<gef-site		>https://download.eclipse.org/releases/2020-09/202009161000/</gef-site>
 		<!-- <emf-site>http://download.eclipse.org/modeling/emf/emf/updates/2.12/</emf-site> -->
 		<!-- <dtp-site>http://download.eclipse.org/datatools/downloads/drops/N_updates_1.12.0/v20140606-1324/</dtp-site> -->
 		<!-- <gef-site>http://download.eclipse.org/tools/gef/updates/releases</gef-site> -->

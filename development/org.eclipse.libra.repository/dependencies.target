@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Libra" sequenceNumber="33">
+<?pde version="3.8"?>
+<target name="Libra" sequenceNumber="33">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="osgi.enterprise" version="0.0.0"/>
 <repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20200831200620/repository/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.gef.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.zest.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.datatools.enablement.sdk.feature.feature.group" version="0.0.0"/>
 <unit id="org.eclipse.sdk.ide" version="0.0.0"/>
+<repository location="https://download.eclipse.org/eclipse/updates/4.18milestones/"/>
+</location>
+<!--
+
+		<emf-site		>https://download.eclipse.org/modeling/emf/emf/builds/milestone/S202010050141/</emf-site>
+		<dtp-site		>https://ci.eclipse.org/datatools/job/org.eclipse.datatools_master/lastSuccessfulBuild/artifact/site/target/repository/</dtp-site>
+		<gef-site		>https://download.eclipse.org/tools/gef/updates/integration/5.4.0_gef-master_lastStableBuild/</gef-site>
+
+-->
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+	<unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
+<repository location="https://download.eclipse.org/modeling/emf/emf/builds/milestone/S202010050141/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.datatools.enablement.sdk.feature.feature.group" version="0.0.0"/>
 <unit id="org.eclipse.jpt.jpa.feature.feature.group"/>
+<repository location="https://ci.eclipse.org/datatools/job/org.eclipse.datatools_master/lastSuccessfulBuild/artifact/site/target/repository/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.gef.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.gef.zest.sdk.feature.group" version="0.0.0"/>
 <repository location="https://download.eclipse.org/releases/2020-09/202009161000/"/>
 </location>
+
+
+
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.jpt.jpa_sdk.feature.feature.group" version="0.0.0"/>
 <unit id="org.eclipse.jst.common.fproj.enablement.jdt.sdk.feature.group" version="0.0.0"/>
